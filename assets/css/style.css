@@ -235,8 +235,7 @@ hr {
   margin: 20px 0;
 }
 .image {
-  max-width: 100%;
-  height: auto;
+  height: 100vh;
 }
 img {
   vertical-align: middle;
