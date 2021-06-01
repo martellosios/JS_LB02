@@ -13,12 +13,12 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 20px;
-  color: #dfdfdf;
+  color: #222;
   background-color: #545761;
 }
 
 .home-temp {
-  background-image: url(hg.jpg);
+  background-image: url("hg.jpg");
   background-size: cover;
   min-height: 100vh;
 }
