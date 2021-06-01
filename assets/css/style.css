@@ -54,14 +54,23 @@ header {
 
 /****** Navigation  ******/
 /****** Navigation  ******/
+
 nav ul {
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  width: 100%;
+}
+
+.right-nav {
+  margin-left: 65%;
+  margin-right: 50px;
+}
+
+.right-nav-margin {
+  margin-right: 50px;
 }
 
 .main-nav {
-  width: 400px;
   margin-top: 30px;
 }
 .main-nav a {
