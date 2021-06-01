@@ -55,6 +55,10 @@ header {
 /****** Navigation  ******/
 /****** Navigation  ******/
 
+img.maa {
+  height: 80px;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -71,11 +75,13 @@ nav ul {
 }
 
 .main-nav {
-  margin-top: 30px;
+  margin-top: 50px;$
+  
 }
 .main-nav a {
   text-decoration: none;
   color: #dfdfdf;
+  font-size: 1.5em;
 }
 .main-nav a:hover,
 .main-nav a.active {
@@ -83,6 +89,7 @@ nav ul {
   text-underline-position: under;
   text-decoration: underline;
   transition: 0.1s;
+  color: #000;
 }
 
 .main-nav a.active {
@@ -95,6 +102,9 @@ nav ul {
 .main-nav li:hover > ul a {
   display: flex;
 }
+
+
+
 
 /* Navigation: Hamburger  */
 #hamburgerIcon {
