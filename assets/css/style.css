@@ -75,13 +75,7 @@ nav ul {
 }
 
 .main-nav {
-<<<<<<< HEAD
-  margin-top: 50px;$
-  
-=======
-  margin-top: 30px;
-  width: 100%;
->>>>>>> ae382cf4a7dc103e8e1370c48e24a32ff8fb84c8
+  margin-top: 50px;
 }
 .main-nav a {
   text-decoration: none;
@@ -107,9 +101,6 @@ nav ul {
 .main-nav li:hover > ul a {
   display: flex;
 }
-
-
-
 
 /* Navigation: Hamburger  */
 #hamburgerIcon {
