@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="de">
   <head>
+    <meta charset="utf-8" />
     <title>MA Architecture</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="./assets/maa_logo.svg" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css    "
@@ -14,221 +14,78 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     />
-    <link rel="icon" href="./assets/maa_logo.svg" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script>
+      function openNav() {
+        document.getElementById("hamburgerNav").style.width = "100%";
+      }
+      function closeNav() {
+        document.getElementById("hamburgerNav").style.width = "0%";
+      }
+    </script>
   </head>
 
   <body>
-    <nav class="top">
-      <div class="bar white wide padding card">
-        <a href="#home" class="bar-item button"><b>MA</b> Architecture</a>
-
-        <div class="right hide-small">
-          <a href="#projects" class="bar-item button">Projects</a>
-          <a href="#about" class="bar-item button">About</a>
-          <a href="#contact" class="bar-item button">Contact</a>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Header -->
-    <header
-      class="display-container content wide"
-      style="max-width: 1500px"
-      id="home"
-    >
-      <img
-        class="image"
-        src="./assets/header_pic.jpg"
-        alt="Architecture"
-        width="1500"
-        height="800"
-      />
-      <div class="display-middle margin-top center">
-        <h1 class="xxlarge text-white">
-          <span class="padding black opacity-min"><b>MA</b></span>
-          <span class="hide-small text-light-grey">Architecture</span>
-        </h1>
-      </div>
+    <header>
+      <nav class="logo-nav">
+        <ul>
+          <li>
+            <a class="logo" href="index.html"
+              ><img src="./assets/maa_logo.svg"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="main-nav">
+        <ul>
+          <li>
+            <a href="firma.html">Firma</a>
+            <ul>
+              <li><a href="news.html">News</a></li>
+            </ul>
+          </li>
+          <li><a href="galerie.html">Galerie</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+      <div id="hamburgerIcon" onclick="openNav()">&#9776;</div>
+      <!--  &#9776; stellt das ☰ Icon dar dar und wird via Media-Screen im CSS ein-&ausgeblendet -->
     </header>
 
-    <!-- Page content -->
-    <div class="content padding" style="max-width: 1564px">
-      <!-- Project Section -->
-      <div class="container padding-32" id="projects">
-        <h3 class="border-bottom border-light-grey padding-16">Projects</h3>
-      </div>
+    <main class="home-temp">
+      <h1><b>Lorem ipsum</b> dolor sit amet,</h1>
+      <p>
+        consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+        labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+        accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+        sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+        sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+      </p>
+      <button class="button"><a href="kontakt.html">Klick mich</a></button>
+    </main>
 
-      <div class="row-padding">
-        <div class="col l3 m6 margin-bottom">
-          <div class="display-container">
-            <div class="display-topleft black padding">Summer House</div>
-            <img src="/w3images/house5.jpg" alt="House" style="width: 100%" />
-          </div>
-        </div>
-        <div class="col l3 m6 margin-bottom">
-          <div class="display-container">
-            <div class="display-topleft black padding">Brick House</div>
-            <img src="/w3images/house2.jpg" alt="House" style="width: 100%" />
-          </div>
-        </div>
-        <div class="col l3 m6 margin-bottom">
-          <div class="display-container">
-            <div class="display-topleft black padding">Renoviert</div>
-            <img src="/w3images/house3.jpg" alt="House" style="width: 100%" />
-          </div>
-        </div>
-        <div class="col l3 m6 margin-bottom">
-          <div class="display-container">
-            <div class="display-topleft black padding">Barn House</div>
-            <img src="/w3images/house4.jpg" alt="House" style="width: 100%" />
-          </div>
-        </div>
-      </div>
-
-      <div class="row-padding">
-        <div class="col l3 m6 margin-bottom">
-          <div class="display-container">
-            <div class="display-topleft black padding">Summer House</div>
-            <img src="/w3images/house2.jpg" alt="House" style="width: 99%" />
-          </div>
-        </div>
-        <div class="col l3 m6 margin-bottom">
-          <div class="display-container">
-            <div class="display-topleft black padding">Brick House</div>
-            <img src="/w3images/house5.jpg" alt="House" style="width: 99%" />
-          </div>
-        </div>
-        <div class="col l3 m6 margin-bottom">
-          <div class="display-container">
-            <div class="display-topleft black padding">Renoviert</div>
-            <img src="/w3images/house4.jpg" alt="House" style="width: 99%" />
-          </div>
-        </div>
-        <div class="col l3 m6 margin-bottom">
-          <div class="display-container">
-            <div class="display-topleft black padding">Barn House</div>
-            <img src="/w3images/house3.jpg" alt="House" style="width: 99%" />
-          </div>
-        </div>
-      </div>
-
-      <!-- About Section -->
-      <div class="container padding-32" id="about">
-        <h3 class="border-bottom border-light-grey padding-16">About</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est
-          laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat.
-        </p>
-      </div>
-
-      <div class="row-padding grayscale">
-        <div class="col l3 m6 margin-bottom">
-          <img src="/w3images/team2.jpg" alt="John" style="width: 100%" />
-          <h3>John Doe</h3>
-          <p class="opacity">CEO & Founder</p>
-          <p>
-            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
-            sodales pellentesque elementum.
-          </p>
-          <p>
-            <button class="button light-grey block">Contact</button>
-          </p>
-        </div>
-        <div class="col l3 m6 margin-bottom">
-          <img src="/w3images/team1.jpg" alt="Jane" style="width: 100%" />
-          <h3>Jane Doe</h3>
-          <p class="opacity">Architect</p>
-          <p>
-            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
-            sodales pellentesque elementum.
-          </p>
-          <p>
-            <button class="button light-grey block">Contact</button>
-          </p>
-        </div>
-        <div class="col l3 m6 margin-bottom">
-          <img src="/w3images/team3.jpg" alt="Mike" style="width: 100%" />
-          <h3>Mike Ross</h3>
-          <p class="opacity">Architect</p>
-          <p>
-            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
-            sodales pellentesque elementum.
-          </p>
-          <p>
-            <button class="button light-grey block">Contact</button>
-          </p>
-        </div>
-        <div class="col l3 m6 margin-bottom">
-          <img src="/w3images/team4.jpg" alt="Dan" style="width: 100%" />
-          <h3>Dan Star</h3>
-          <p class="opacity">Architect</p>
-          <p>
-            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
-            sodales pellentesque elementum.
-          </p>
-          <p>
-            <button class="button light-grey block">Contact</button>
-          </p>
-        </div>
-      </div>
-
-      <!-- Contact Section -->
-      <div class="container padding-32" id="contact">
-        <h3 class="border-bottom border-light-grey padding-16">Contact</h3>
-        <p>Lets get in touch and talk about your next project.</p>
-        <form action="/action_page.php" target="_blank">
-          <input
-            class="input border"
-            type="text"
-            placeholder="Name"
-            required
-            name="Name"
-          />
-          <input
-            class="input section border"
-            type="text"
-            placeholder="Email"
-            required
-            name="Email"
-          />
-          <input
-            class="input section border"
-            type="text"
-            placeholder="Subject"
-            required
-            name="Subject"
-          />
-          <input
-            class="input section border"
-            type="text"
-            placeholder="Comment"
-            required
-            name="Comment"
-          />
-          <button class="button black section" type="submit">
-            <i class="fa fa-paper-plane"></i> SEND MESSAGE
-          </button>
-        </form>
-      </div>
-
-      <!-- Image of location/map -->
-      <div class="container">
-        <img src="/w3images/map.jpg" class="image" style="width: 100%" />
-      </div>
-
-      <!-- End page content -->
-    </div>
-
-    <!-- Footer -->
-    <footer class="center black padding-16">
-      <p>MA Architecture</p>
+    <footer>
+      <a href="">DE</a>
+      <form role="search" method="get" id="searchform" action="">
+        <input type="search" placeholder="Search" name="search" />
+        <button type="submit" class="btn">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+      </form>
     </footer>
+
+    <nav id="hamburgerNav">
+      <!-- Die Hamburger Nav wird mittels script.js geöffnet oder geschlossen -->
+      <a class="closebtn" onclick="closeNav()" href="#">&times;</a>
+      <!--  &times; stellt das X Icon dar -->
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="firma.html">Firma</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
   </body>
 </html>
