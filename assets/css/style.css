@@ -60,6 +60,25 @@ nav ul {
   justify-content: space-between;
 }
 
+.logo-nav a {
+  color: #dfdfdf;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  text-decoration: none;
+}
+.logo-nav:hover {
+  animation: perspect 4s infinite ease;
+  transition: 0.3s;
+}
+@keyframes perspect {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
 /* Main-Navigation */
 .main-nav {
   width: 400px;
