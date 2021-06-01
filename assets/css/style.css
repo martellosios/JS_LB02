@@ -72,6 +72,7 @@ nav ul {
 
 .main-nav {
   margin-top: 30px;
+  width: 100%;
 }
 .main-nav a {
   text-decoration: none;
