@@ -14,12 +14,13 @@ body {
   font-weight: 300;
   font-size: 20px;
   color: #222;
-  background-color: #545761;
+  background-color: whitesmoke:
 }
 
 .home-temp {
   background-size: cover;
   min-height: 100vh;
+  background-color: whitesmoke;
 }
 
 h1 {
