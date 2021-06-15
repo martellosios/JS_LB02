@@ -71,6 +71,10 @@ nav ul {
   justify-content: flex-end;
 }
 
+.right-nav-margin {
+  margin-right: 80px;
+}
+
 .main-nav {
   margin-top: 50px;
 }
