@@ -205,7 +205,7 @@ footer {
   align-items: center;
   background-color: #000;
   padding: 0 100px;
-  position: fixed;
+  position: static;
   bottom: 0;
   z-index: 9999;
 }
