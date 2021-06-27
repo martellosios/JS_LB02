@@ -231,6 +231,8 @@ footer {
   position: static;
   bottom: 0;
   z-index: 9999;
+  color: white;
+  text-align: center;
 }
 footer a {
   color: #dfdfdf;
