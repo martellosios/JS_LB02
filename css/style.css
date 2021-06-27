@@ -227,6 +227,14 @@ button:hover {
   margin-bottom: 100px;
 }
 
+.firma-2 {
+  display: flex;
+  justify-content: space-between;
+  height: 377px;
+  margin-top: 250px;
+  margin-bottom: 100px;
+}
+
 .submit-button {
   padding: 7px;
 }
@@ -256,6 +264,10 @@ footer {
   text-align: center;
 }
 
+footer p {
+  display: flex;
+  align-content: flex-end;
+}
 /******  Media Screen für Smartphone  ******/
 /******  Media Screen für Smartphone  ******/
 @media screen and (max-width: 812px) {
