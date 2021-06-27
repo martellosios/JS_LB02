@@ -7,6 +7,14 @@
 }
 html {
   scroll-behavior: smooth;
+  background-color: whitesmoke;
+}
+
+.home-temp {
+  background-size: cover;
+  min-height: 100vh;
+  background-color: whitesmoke;
+  margin-top: 100px;
 }
 
 body {
@@ -14,12 +22,6 @@ body {
   font-weight: 300;
   font-size: 20px;
   color: #222;
-  background-color: whitesmoke;
-}
-
-.home-temp {
-  background-size: cover;
-  min-height: 100vh;
   background-color: whitesmoke;
 }
 
@@ -192,6 +194,17 @@ main .button a {
 }
 .news article {
   width: 45%;
+}
+
+/******  Firma  ******/
+/******  Firma  ******/
+
+.firma {
+  display: flex;
+  justify-content: space-between;
+  height: 377px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 /******  Footer  ******/
