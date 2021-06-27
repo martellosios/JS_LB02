@@ -216,6 +216,14 @@ button:hover {
   text-decoration: none;
 }
 
+img.d-block.w-100 {
+  border: 5px solid burlywood;
+}
+
+.carousel-indicators li {
+  background-color: burlywood !important;
+}
+
 /******  Firma  ******/
 /******  Firma  ******/
 
