@@ -196,6 +196,26 @@ main .button a {
   width: 45%;
 }
 
+button.btn.btn-outline-dark {
+  height: 50px;
+  margin-bottom: 100px;
+}
+
+button a {
+  color: #000;
+  text-decoration: none;
+}
+
+button a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+button:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
 /******  Firma  ******/
 /******  Firma  ******/
 
@@ -235,8 +255,6 @@ footer {
   color: white;
   text-align: center;
 }
-
-
 
 /******  Media Screen für Smartphone  ******/
 /******  Media Screen für Smartphone  ******/
