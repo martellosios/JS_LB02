@@ -232,47 +232,11 @@ footer {
   position: static;
   bottom: 0;
   z-index: 9999;
-}
-footer a {
-  color: #dfdfdf;
-  text-decoration: none;
-}
-footer a:hover {
-  text-underline-position: under;
-  text-decoration: underline;
+  color: white;
+  text-align: center;
 }
 
-#searchform {
-  display: flex;
-  align-items: center;
-  opacity: 0.9;
-  color: #555;
-}
-#searchform input {
-  height: 34px;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  position: relative;
-  left: 20px;
-  background-color: #dfdfdf;
-}
-#searchform button {
-  height: 34px;
-  width: 34px;
-  border: none;
-  border-radius: 0 5px 5px 0;
-  background-color: #555;
-  z-index: 10;
-}
-#searchform button:hover {
-  background-color: #777;
-}
 
-.fa-search {
-  color: #dfdfdf;
-  font-size: 1.5em;
-}
 
 /******  Media Screen für Smartphone  ******/
 /******  Media Screen für Smartphone  ******/
