@@ -207,15 +207,16 @@ main .button a {
   margin-bottom: 100px;
 }
 
-
-/******  Firma  ******/
-/******  Firma  ******/
-
-
 .submit-button {
   padding: 7px;
 }
 
+/******  News  ******/
+/******  News  ******/
+
+.news-info {
+  margin-top: 100px;
+}
 
 /******  Footer  ******/
 /******  Footer  ******/
