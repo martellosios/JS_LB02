@@ -51,12 +51,22 @@
       <!--  &#9776; stellt das ☰ Icon dar dar und wird via Media-Screen im CSS ein-&ausgeblendet -->
     </header>
     <main class="home-temp">
+      <!--WÄHRUNGSRECHNER-->
       <h1 id="msg">Währung</h1>
       <script>
         let text = document.getElementById("msg").innerHTML;
         text += " " + "berechnen";
         document.getElementById("msg").innerHTML = text;
       </script>
+
+      <!--WÄHRUNGEN-->
+      <div class="container">
+        <div class="currency">
+          <select id="currency-one"></select>
+        </div>
+      </div>
+
+      <!--WÄHRUNGSRECHNER-->
     </main>
     <footer>
       <div class="text-center">
@@ -79,5 +89,6 @@
         <li><a href="kontakt.html">Kontakt</a></li>
       </ul>
     </nav>
+    <script src="/js/script.js"></script>
   </body>
 </html>
