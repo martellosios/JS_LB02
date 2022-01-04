@@ -269,16 +269,9 @@ img.d-block.w-100 {
   width: 50px;
 }
 
-.conatiner-rechner {
+.container-calculator {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
   justify-content: space-between;
-  align-items: stretch;
-  align-content: stretch;
-  margin: 0px;
-  padding-left: 0px;
-  margin-top: 100px;
 }
 
 .currency-ausgang {
