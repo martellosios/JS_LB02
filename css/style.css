@@ -263,6 +263,12 @@ img.d-block.w-100 {
   padding-right: 10px;
 }
 
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+
 /******  Footer  ******/
 /******  Footer  ******/
 footer {
