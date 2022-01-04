@@ -294,6 +294,7 @@ img.d-block.w-100 {
 
 .swap-rate-container {
   display: flex;
+  justify-content: center;
   width: 10%;
 }
 /******  Footer  ******/
