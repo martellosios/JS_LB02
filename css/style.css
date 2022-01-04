@@ -270,9 +270,32 @@ img.d-block.w-100 {
 }
 
 .conatiner-rechner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
   margin: 0px;
   padding-left: 0px;
   margin-top: 100px;
+}
+
+.currency-ausgang {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.currency-ziel {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.swap-rate-container {
+  display: flex;
+  width: 10%;
 }
 /******  Footer  ******/
 /******  Footer  ******/

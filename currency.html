@@ -59,7 +59,7 @@
 
       <!--WÄHRUNGEN-->
       <div class="container-rechner">
-        <div class="currency">
+        <div class="currency-ausgang">
           <select id="currency-one">
             <option value="CHF" selected>CHF</option>
             <option value="EUR">EUR</option>
@@ -79,9 +79,8 @@
               ></object>
             </span>
           </button>
-          <div class="rate" id="rate"></div>
         </div>
-        <div class="currency">
+        <div class="currency-ziel">
           <select id="currency-two">
             <option value="CHF">CHF</option>
             <option value="EUR" selected>EUR</option>
@@ -90,6 +89,7 @@
           </select>
           <input type="number" id="amount-two" />
         </div>
+        <div class="rate" id="rate"></div>
       </div>
 
       <script src="./js/script.js"></script>
