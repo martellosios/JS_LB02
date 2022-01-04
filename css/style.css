@@ -257,12 +257,21 @@ img.d-block.w-100 {
 /****** Währungsrechner  ******/
 /****** Währungsrechner  ******/
 
+.text-rechner {
+  margin-bottom: 50px;
+}
+
 .wechsel-button.btn-outline-dark {
   height: 50px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
+.conatiner-rechner {
+  margin: 0px;
+  padding-left: 0px;
+  margin-top: 100px;
+}
 /******  Footer  ******/
 /******  Footer  ******/
 footer {
