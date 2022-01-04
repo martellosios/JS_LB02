@@ -52,11 +52,10 @@
     </header>
     <main class="home-temp">
       <!--WÄHRUNGSRECHNER-->
-      <h1> <b>Währungsrechner</b></h1>
+      <h1><b>Währungsrechner</b></h1>
       <p class="text-rechner">
         Mit diesem Währungsrechner können Sie verschiedene Währungen umrechnen.
       </p>
-    
 
       <!--WÄHRUNGEN-->
       <div class="container-rechner">
@@ -71,8 +70,14 @@
         </div>
 
         <div class="swap-rate-container">
-          <button class="wechsel-button btn-outline-dark" id="swap">
-            Wechseln
+          <button class="wechsel-button" id="swap">
+            <span>
+              <object
+                class="swap-icon"
+                data="./assets/swap.svg"
+                type="image/svg+xml"
+              ></object>
+            </span>
           </button>
           <div class="rate" id="rate"></div>
         </div>
