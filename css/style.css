@@ -263,7 +263,7 @@ img.d-block.w-100 {
   position: absolute;
   z-index: 1;
   border: none;
-  background-color:rgba(133, 63, 63, 0);
+  background-color: rgba(133, 63, 63, 0);
 }
 
 .text-rechner {
@@ -297,6 +297,7 @@ img.d-block.w-100 {
   justify-content: center;
   width: 10%;
 }
+
 /******  Footer  ******/
 /******  Footer  ******/
 footer {
