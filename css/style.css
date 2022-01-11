@@ -283,7 +283,7 @@ img.d-block.w-100 {
 .currency-ausgang {
   display: flex;
   flex-direction: column;
-  width: 35%;
+  width: 20%;
 }
 
 .currency-ziel {
