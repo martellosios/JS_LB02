@@ -60,32 +60,34 @@
       <!--WÄHRUNGEN-->
       <div class="container-calculator">
         <div class="currency-ausgang">
+          <h5>Ausgangswährung</h5>
           <select id="currency-one">
             <option value="CHF" selected>CHF</option>
             <option value="EUR">EUR</option>
             <option value="USD">USD</option>
             <option value="GBP">GBP</option>
           </select>
+          <h6 class="betrag">Betrag</h6>
           <input type="number" id="amount-one" placeholder="0" value="1" />
         </div>
-      
-
 
         <div class="swap-rate-container">
           <button class="wechsel-button" id="swap"></button>
           <object
-              class="swap-icon"
-              data="./assets/swap.svg"
-              type="image/svg+xml"
+            class="swap-icon"
+            data="./assets/swap.svg"
+            type="image/svg+xml"
           ></object>
         </div>
         <div class="currency-ziel">
+          <h5>Zielwährung</h5>
           <select id="currency-two">
             <option value="CHF">CHF</option>
             <option value="EUR" selected>EUR</option>
             <option value="USD">USD</option>
             <option value="GBP">GBP</option>
           </select>
+          <h6 class="betrag">Betrag</h6>
           <input type="number" id="amount-two" />
         </div>
       </div>
