@@ -1,31 +1,41 @@
-// Währungen abrufen
+// Währungen abrufen,
 const currencyEl_one = document.getElementById("currency-one");
 const currencyEl_two = document.getElementById("currency-two");
 
-// Eingabe abrufen
+// Eingegebener Wert/ Zahl abrufen
 const amountEl_one = document.getElementById("amount-one");
 const amountEl_two = document.getElementById("amount-two");
 
-// Wechselkurs abrufen
+// Wechselkurs unten abrufen
 const rateEl = document.getElementById("rate");
 
 // Wechselknopf abrufen
 const swap = document.getElementById("swap");
 
-// "Fetch" Wechselkurse Funktion
+
+
 
 // Wechselkurs eingabe berechnen
 function calculate() {
   const currency_one = currencyEl_one.value;
   const currency_two = currencyEl_two.value;
 
+<<<<<<< HEAD
   // "Fetch" Wechselkurse Funktion API json
+=======
+
+
+// "Fetch" = holt Wechselkurse dynamisch von API API json 
+>>>>>>> f1ed275b01ad2e4d22ad26d7fa4b724fab238485
   fetch(
     `https://v6.exchangerate-api.com/v6/cbb423278d69ba2d1b7071fc/latest/${currency_one}`
   )
+  // sobald fetch erfolgreich -> response = restart json
     .then((res) => res.json())
     .then((data) => {
-      console.log(data);
+      // console.log(data);
+
+      // greift auf wechselkurse zu
       const rate = data.conversion_rates[currency_two];
       rateEl.innerText = `1 ${currency_one} = ${rate} ${currency_two}`;
 
@@ -33,11 +43,22 @@ function calculate() {
     });
 }
 
+
+
 // Event Listeners
+
+// Schaut nach änderung von währung 1 und löst die kalkulation mit dem neuen kurs
 currencyEl_one.addEventListener("change", calculate);
+// Schaut nach änderung von Input/eingegebene Zahl und löst die kalkulation
 amountEl_one.addEventListener("input", calculate);
+
+// Schaut nach änderung von Währung 2 und löst die kalkulation mit dem neuen kurs
 currencyEl_two.addEventListener("change", calculate);
+// Schaut nach änderung von Input/eingegebene Zahl und löst kalkuliert
 amountEl_two.addEventListener("input", calculate);
+
+
+// Wenn Button clicked werden currencys gewechselt
 swap.addEventListener("click", () => {
   const temp = currencyEl_one.value;
   currencyEl_one.value = currencyEl_two.value;
