@@ -12,25 +12,16 @@ const rateEl = document.getElementById("rate");
 // Wechselknopf abrufen
 const swap = document.getElementById("swap");
 
-
-
-
 // Wechselkurs eingabe berechnen
 function calculate() {
   const currency_one = currencyEl_one.value;
   const currency_two = currencyEl_two.value;
 
-<<<<<<< HEAD
   // "Fetch" Wechselkurse Funktion API json
-=======
-
-
-// "Fetch" = holt Wechselkurse dynamisch von API API json 
->>>>>>> f1ed275b01ad2e4d22ad26d7fa4b724fab238485
   fetch(
     `https://v6.exchangerate-api.com/v6/cbb423278d69ba2d1b7071fc/latest/${currency_one}`
   )
-  // sobald fetch erfolgreich -> response = restart json
+    // sobald fetch erfolgreich -> response = restart json
     .then((res) => res.json())
     .then((data) => {
       // console.log(data);
@@ -43,8 +34,6 @@ function calculate() {
     });
 }
 
-
-
 // Event Listeners
 
 // Schaut nach änderung von währung 1 und löst die kalkulation mit dem neuen kurs
@@ -56,7 +45,6 @@ amountEl_one.addEventListener("input", calculate);
 currencyEl_two.addEventListener("change", calculate);
 // Schaut nach änderung von Input/eingegebene Zahl und löst kalkuliert
 amountEl_two.addEventListener("input", calculate);
-
 
 // Wenn Button clicked werden currencys gewechselt
 swap.addEventListener("click", () => {
