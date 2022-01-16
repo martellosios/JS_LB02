@@ -17,7 +17,7 @@ function calculate() {
   const currency_one = currencyEl_one.value;
   const currency_two = currencyEl_two.value;
 
-  // "Fetch" Wechselkurse Funktion API json
+  // "Fetch" = holt Wechselkurse dynamisch von API API json
   fetch(
     `https://v6.exchangerate-api.com/v6/cbb423278d69ba2d1b7071fc/latest/${currency_one}`
   )
